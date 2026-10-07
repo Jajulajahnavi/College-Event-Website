@@ -26,7 +26,6 @@
 <section id="home" class="hero">
     <div class="hero-content">
         <p class="welcome">WELCOME TO</p>
-
         <h1>COLLEGE FEST 2026</h1>
 
         <p class="subtitle">
@@ -134,7 +133,6 @@
     </div>
 </section>
 
-<!-- SPEAKERS FEATURE -->
 <section id="speakers" class="section">
 
     <h2>Our Speakers</h2>
@@ -174,23 +172,41 @@
         </div>
 
     </div>
-
 </section>
 
+<!-- REGISTRATION FEATURE -->
 <section id="registration" class="section alternate">
 
     <h2>Event Registration</h2>
 
+    <p class="section-intro">
+        Register now and be part of College Fest 2026.
+    </p>
+
     <form id="registrationForm">
 
-        <input type="text" id="name"
-               placeholder="Full Name" required>
+        <input
+            type="text"
+            id="name"
+            placeholder="Full Name"
+            required
+        >
 
-        <input type="email" id="email"
-               placeholder="Email Address" required>
+        <input
+            type="email"
+            id="email"
+            placeholder="Email Address"
+            required
+        >
 
-        <input type="tel" id="phone"
-               placeholder="Phone Number" required>
+        <input
+            type="tel"
+            id="phone"
+            placeholder="Phone Number"
+            pattern="[0-9]{10}"
+            placeholder="10-digit Phone Number"
+            required
+        >
 
         <select id="department" required>
             <option value="">Select Department</option>
@@ -200,6 +216,14 @@
             <option>EEE</option>
             <option>IT</option>
             <option>Other</option>
+        </select>
+
+        <select id="eventType" required>
+            <option value="">Select Event Type</option>
+            <option>Technical Events</option>
+            <option>Cultural Events</option>
+            <option>Project Exhibition</option>
+            <option>All Events</option>
         </select>
 
         <button type="submit">
