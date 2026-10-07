@@ -54,7 +54,7 @@ Final Project
 ## 👥 Team Members
 
 1. Jajula Jahnavi
-2. Akshay Reddy
+2. Akshaya Reddy
 3. Sindhu Reddy
 4. Mora Archita
 
