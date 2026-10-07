@@ -8,14 +8,14 @@ The website provides complete information about the event, including event detai
 
 ## ✨ Features
 
-- 🏠 Home page
+- 🏠 Home Page
 - 📋 About the Event
 - 📅 Event Schedule
 - 🎤 Speakers Information
 - 📝 Online Event Registration
 - 📞 Contact Information
-- 📱 Responsive website design
-- ✅ Registration success message
+- 📱 Responsive Website Design
+- ✅ Registration Success Message
 
 ## 🛠️ Technologies Used
 
@@ -29,11 +29,11 @@ The website provides complete information about the event, including event detai
 
 The project was developed using separate feature branches:
 
-- `main` - Main project
-- `schedule` - Event schedule feature
-- `speakers` - Speakers feature
-- `registration` - Registration feature
-- `contact` - Contact feature
+- `main` - Main Project
+- `schedule` - Event Schedule Feature
+- `speakers` - Speakers Feature
+- `registration` - Registration Feature
+- `contact` - Contact Feature
 
 Each feature was developed in a separate branch, committed, pushed to GitHub, and merged into the `main` branch.
 
